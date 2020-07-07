@@ -1,3 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: 0.5rem;
+}
+
+
+.input-txt{
+    width: 90%;
+    display: block;
+    height: 2rem;
+    border-color: #555;
+    border-radius: 5px;
+    margin: 2rem auto;
+    outline: none;
+    padding: 0.5rem;
+}
+.input-txt:hover,
+.input-txt:focus,
+.input-txt:active{
+
+    border-color: #000;
+}
+
 /* Keyboard */
 .keyboard {
     text-align: center;
@@ -55,4 +86,7 @@ div.active-key{
     position: relative;
     bottom: -0.2rem;
     background-color: #3333339c;
+}
+.gap{
+    width: 20rem;
 }
